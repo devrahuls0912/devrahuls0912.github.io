@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        User Enrollment Form
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/AIG_new_logo.svg" alt="AIG Enrollment"
+            style="width:20%;">
+    </header>
+
+    <h1 class="formHeader">
+        User Enrollment Form
+    </h1>
+
+    <br><br>
+
+
+    <h2 class="fNameHeader">Enter the FIRST NAME , if not auto-populated</h2>
+
+
+    <form action="result.html" method="POST"> 
+        <input type="text" id="firstname" name="firstname" placeholder="Enter First name.." />
+        <input type="text" id="surname" name="surname" placeholder="Enter Sur name.." />
+        <input type="submit" onclick="handleSubmit()" style="background-color: #1976d2;"/>
+    </form>
+</body>
+
+</html>
