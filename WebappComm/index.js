@@ -19,6 +19,9 @@ function handleSubmit () {
     const firstname = document.getElementById('firstname').value;
     const surname = document.getElementById('surname').value;
 
+
+    window.location.assign("https://devrahuls0912.github.io/WebappComm/result.html?firstname="+firstname+"&surname="+surname);
+
     // to set into local storage
     /*localStorage.setItem("FIRSTNAME", firstname);
     localStorage.setItem("SURNAME", surname); */
