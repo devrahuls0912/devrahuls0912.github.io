@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 
 
-function handleSubmit () {
+function handleSubmit(){
     const firstname = document.getElementById('firstname').value;
     const surname = document.getElementById('surname').value;
 
@@ -31,4 +31,12 @@ function handleSubmit () {
     sessionStorage.setItem("SURNAME", surname);*/ 
 
     return;
+}
+
+function addHyperLinkAddress(){
+    const firstname = document.getElementById('firstname').value;
+    const surname = document.getElementById('surname').value;
+
+    var a = document.getElementById("linktomob");
+    a.href = "https://devrahuls0912.github.io/WebappComm/result.html?firstname="+firstname+"&surname="+surname;
 }
